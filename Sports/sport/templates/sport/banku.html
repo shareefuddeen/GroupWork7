@@ -1,0 +1,215 @@
+ {% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>banku</title>
+</head>
+<body>
+
+  <div class="navbar fixed-top">
+    <h1 class="text-muted m-4">iChopLocal</h1>
+    <a href="{% url 'home' %}" class="fs-1 text-center">Home</a>
+      <h2 class="me-4 text-info  ">Banku</h2>
+  </div>
+
+<div >
+  <img style="width:100%; height:587px;" src="{% static 'pics/OIP.jpg' %}">
+</div>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/29789039-bf5d-49e0-ad5a-27c7561e8daf.jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 14.99</p>
+              <a href="{% url 'card-detail' %}"
+               class="btn btn-outline-primary ">Odrer</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/421baad9-e2b9-459d-aea6-845d027c4440.jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 45.99</p>
+              <a href="{% url 'card-detail' %}" class="btn btn-outline-primary ">Buy Now</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/958050cc-80a9-4975-b2c0-3eed456fa688.jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 30.99</p>
+              <a href="{% url 'card-detail' %}" class="btn btn-outline-primary ">Odrer</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/Banku and Okro Soup (1).jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 14.99</p>
+              <a href="{% url 'card-detail' %}"
+               class="btn btn-outline-primary ">Odrer</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/Banku and Okro Soup.jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 45.99</p>
+              <a href="{% url 'card-detail' %}" class="btn btn-outline-primary ">Buy Now</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/banku with grilled tilapia , shito,grinded pepper….jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 30.99</p>
+              <a href="{% url 'card-detail' %}" class="btn btn-outline-primary ">Odrer</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/dacfc50a-7870-4c91-924f-182c548dfafe.jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 14.99</p>
+              <a href="{% url 'card-detail' %}"
+               class="btn btn-outline-primary ">Odrer</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/Ghanaian Food Network ® on Instagram_ “Good….jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 45.99</p>
+              <a href="{% url 'card-detail' %}" class="btn btn-outline-primary ">Buy Now</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/Ghanaian food.jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 30.99</p>
+              <a href="{% url 'card-detail' %}" class="btn btn-outline-primary ">Odrer</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/OIP (8).jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 14.99</p>
+              <a href="{% url 'card-detail' %}"
+               class="btn btn-outline-primary ">Odrer</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/Oatmeal swallow lunch idea!.jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 45.99</p>
+              <a href="{% url 'card-detail' %}" class="btn btn-outline-primary ">Buy Now</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-6 col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img style="width:100% ; height: 244px;" class="card-img-top" src="{% static 'pics/Banku/Kashe Street Kitchen.jpg' %}" alt="Card image cap">
+          <div class="card-body text-center">
+              <h5 class="card-title">Banku</h5>
+              <p class="card-text"> Ghanaian local food </p>
+              <p class="text-outline-primary ">Ghc 30.99</p>
+              <a href="{% url 'card-detail' %}" class="btn btn-outline-primary ">Odrer</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <footer class="footer mt-4">
+     <div class="container">
+      <div class="row1">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links"><i class=""></i>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+     </div>
+  </footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
