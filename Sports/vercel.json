@@ -21,7 +21,7 @@
     },
     {
       "src": "(/)",
-      "dest": "Sport/wsgi.py"
+      "dest": "/"
     }
   ]
 }
