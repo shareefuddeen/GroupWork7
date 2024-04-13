@@ -14,14 +14,7 @@
       }
     }
   ],
-  "routes": [
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": "(/)",
-      "dest": "Sports/wsgi.py"
-    }
+  "rewrites": [
+    { "source": "/", "destination": "/api/index" }
   ]
 }
