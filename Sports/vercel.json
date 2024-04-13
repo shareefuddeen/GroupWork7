@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "Spo/wsgi.py",
+      "src": "Sport/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
@@ -21,7 +21,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "Spo/wsgi.py"
+      "dest": "Sport/wsgi.py"
     }
   ]
 }
